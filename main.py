@@ -6,5 +6,5 @@ app=Flask(_name_)
 def hello():
   return "Hello World"
 
-if _name=='main_':
+if _name_=='_main_':
   app.run(host='127.0.0.1',port=8080,debug=True)
